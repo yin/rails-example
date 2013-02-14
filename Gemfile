@@ -1,5 +1,10 @@
 source 'http://rubygems.org'
 
+gem 'haml', '~>3.1.0'
+gem 'sass'
+gem 'therubyracer'
+gem 'ruby-debug19'
+
 gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:

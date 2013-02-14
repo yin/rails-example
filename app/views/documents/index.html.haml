@@ -1,0 +1,17 @@
+%h2 Stored documents
+
+%table#docs
+	%thead
+		%th= link_to "+", new_document_path
+		%th Title
+		%th Length
+		%th URL
+		%th
+	%tbody
+		- @documents.each do |doc|
+			%tr
+				%td
+				%td= doc.title
+				%td= doc.body.length
+				%td= doc.source_url
+				%td= link_to "details...", document_path(doc)
