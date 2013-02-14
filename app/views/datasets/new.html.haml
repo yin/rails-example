@@ -1,0 +1,13 @@
+%h2 Add dataset
+
+= form_tag documents_path, :method => :post do
+	= label :doc, :title, 'Title'
+	= text_field :doc, :title
+	
+	= label :doc, :source_url, 'URL'
+	= text_field :doc, :source_url
+
+	= label :doc, :body, 'Body'
+	= text_area :doc, :body
+	
+	= submit_tag 'Save'

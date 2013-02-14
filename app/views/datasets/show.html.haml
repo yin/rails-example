@@ -1,0 +1,9 @@
+%h2 Document
+%a{:href => documents_path()}
+	Back to list of Documents
+
+%h3= @doc.title
+%p.source= @doc.source_url
+
+%div.doc_body
+	= @doc.body

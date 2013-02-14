@@ -1,0 +1,17 @@
+%h2 Stored documents
+
+%table#docs
+	%thead
+		%th= link_to "+", new_document_path
+		%th ID
+		%th Name
+		%th # of Docs
+		%th
+	%tbody
+		- @datasets.each do |dataset|
+			%tr
+				%td
+				%td= dataset.id
+				%td= dataset.name
+				%td= dataset.size
+				%td= link_to "details...", dataset_path(dataset)
