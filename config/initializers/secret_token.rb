@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-HerokuPrime::Application.config.secret_token = '28e3b98b357147e583039771f73c90166238c4f282ea4891c693ed320eddf52bc2a57652b0b38f2dfd59c67ae6c27269317f7273ce2e507af43ca8d4abc8a882'
+HerokuPrime::Application.config.secret_token = '3be970a61fbb4ca73af3628a3c184937884c7e58590c2e42c0c4e48a83b31a9ee469879093e965f2b764856b3a3f73e9ba0aebfa3558360f84a7175fa71d8066'

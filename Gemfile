@@ -1,8 +1,5 @@
 source 'http://rubygems.org'
 
-gem 'haml'
-gem 'ruby-debug19'
-
 gem 'rails', '3.1.0'
 
 # Bundle edge Rails instead:
@@ -30,7 +27,3 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', :require => false
-end
